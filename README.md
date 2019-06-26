@@ -9,6 +9,8 @@ Http proxy for developers
 
 [Save root certificate](https://github.com/cuberact/cuberact-proxy/blob/master/save-root-certificate.md)
 
+[Rule lifecycle](https://github.com/cuberact/cuberact-proxy/blob/master/rule-lifecycle.md)
+
 [Rule MITM](https://github.com/cuberact/cuberact-proxy/blob/master/rule-mitm.md)
 
 [MITM Android](https://github.com/cuberact/cuberact-proxy/blob/master/mitm-android.md)
