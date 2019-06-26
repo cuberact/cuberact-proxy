@@ -9,8 +9,10 @@ Android emulátor má dvě možnosti jak nastavit proxy server.
     ![](https://raw.githubusercontent.com/cuberact/cuberact-proxy/master/images/android-proxy/android-proxy-03.png)
     
 2. Přímo v AVD (v nastavení uvnitř androidu)
-  
-    `settings -> Mobile network -> Access point names`
+
+    V settings androidu vypnout WIFI
+
+    Přidat nový Access point s proxy nastavením `settings -> Mobile network -> Access point names`
 
     ![](https://raw.githubusercontent.com/cuberact/cuberact-proxy/master/images/android-proxy/android-proxy-01.png)
     
