@@ -157,7 +157,7 @@ Spusťte android emulátor s příslušným AVD. Jako AVD volte vždy image/targ
     ```
 AVD v emulátoru by se mělo restartovat a poté zkontrolujte přítomnost certifikátu:
 
-`settings -> Security & locations -> Encryption & credentials -> Trusted crendtials (tab system) `
+`settings -> Security & locations -> Encryption & credentials -> Trusted credentials (tab system) `
 
 ![](https://raw.githubusercontent.com/cuberact/cuberact-proxy/master/images/mitm-android/mitm-android-01.png)
 
