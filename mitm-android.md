@@ -132,7 +132,8 @@ Z cuberact proxy máme uložený root certifikát jako PEM file ([Save root cert
     
 #### Problém 3. Nahrání souboru do AVD
 
-Spusťte android emulátor s příslušným AVD
+Spusťte android emulátor s příslušným AVD. Jako AVD volte vždy image/target označený jako `Google APIs`, to proto, že jinak bude AVD jako produkční a nepodaří se vám `adb root` a `adb remount`. Postup jsem odzkoušel na verzích Android 8 a Android 9+. S verzí Android 6 jsem měl problémy, ale možná i zde to bude fungovat.
+
 
 1. přepnutí `adb` do root režimu
 
