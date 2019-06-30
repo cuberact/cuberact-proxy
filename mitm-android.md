@@ -42,69 +42,69 @@ Z cuberact proxy máme uložený root certifikát jako PEM file ([Save root cert
 3. Převést PEM file na formát pořebný pro android (název souboru z kroku 2 + přípona .0)
 
     ```batch 
-    openssl x509 -inform PEM -text -in cuberact-proxy-root-cert.pem  -out 7636ecd9.0
+    openssl x509 -inform PEM -text -in cuberact-proxy-root-cert.pem  -out 453ba6c0.0
     ```
 
-    Výsledný soubor `7636ecd9.0` by měl vypadat takhle:
+    Výsledný soubor `453ba6c0.0` by měl vypadat takhle:
     
     ```text
     -----BEGIN CERTIFICATE-----
-    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
+    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
     -----END CERTIFICATE-----
     Certificate:
         Data:
             Version: 3 (0x2)
-            Serial Number: 721994923 (0x2b08c4ab)
+            Serial Number: 1491089390 (0x58e037ee)
             Signature Algorithm: sha256WithRSAEncryption
-            Issuer: CN = Cuberact-Proxy, O = Cuberact-Proxy, L = czech, C = cz
+            Issuer: CN = Cuberact-proxy, O = Cuberact-proxy, L = Czech, C = CZ
             Validity
-                Not Before: Jun  9 21:56:50 2019 GMT
-                Not After : May 19 21:56:50 2021 GMT
-            Subject: CN = Cuberact-Proxy, O = Cuberact-Proxy, L = czech, C = cz
+                Not Before: Dec 31 23:00:00 2018 GMT
+                Not After : Dec 31 23:00:00 2099 GMT
+            Subject: CN = Cuberact-proxy, O = Cuberact-proxy, L = Czech, C = CZ
             Subject Public Key Info:
                 Public Key Algorithm: rsaEncryption
                     RSA Public-Key: (2048 bit)
                     Modulus:
-                        00:bb:70:a1:71:07:94:cf:cb:fa:46:28:e8:bb:56:
-                        46:1c:a7:5a:18:9d:95:a3:87:15:d1:02:e7:61:30:
-                        bf:6d:36:dd:a3:9d:9c:f4:1a:de:eb:e9:97:b0:4d:
-                        40:79:30:a8:14:d9:38:b2:27:34:69:9e:51:cd:61:
-                        c6:e6:2d:ef:ae:36:2d:8f:e2:d4:2d:ae:d5:27:1e:
-                        f6:81:b3:6a:19:83:f0:ad:92:03:93:b3:2f:3a:50:
-                        94:6d:5a:78:db:25:87:84:29:6c:43:ee:47:14:2f:
-                        a9:33:dc:a0:86:d2:31:2b:fd:41:5a:4c:89:4e:a0:
-                        f6:17:b3:28:12:c7:1e:f6:53:31:76:51:f6:e1:aa:
-                        d2:a3:f1:b5:76:1d:1d:59:e5:da:8d:a1:31:28:1e:
-                        36:f7:d5:4c:23:b8:c2:f6:e5:3b:ad:61:cb:fa:96:
-                        7e:a2:24:40:69:ec:9d:0e:86:27:fb:03:74:2f:d6:
-                        32:01:1c:59:56:fd:d1:d2:9f:d2:1e:c0:e1:ab:42:
-                        03:8a:67:44:76:9f:a0:fc:5d:d1:cb:dd:50:5b:71:
-                        89:29:3c:09:5c:df:6f:38:79:cd:33:cc:2e:f0:23:
-                        67:8e:d6:d7:58:5a:7a:ba:74:aa:96:2c:14:75:65:
-                        b0:51:d8:a0:e0:6e:23:9f:1c:c5:50:a6:27:13:73:
-                        0a:f9
+                        00:8b:65:f3:03:80:0a:f8:4b:43:6e:43:b8:7a:7d:
+                        b6:6b:c1:9b:cd:28:43:f2:6b:25:6c:69:cf:3e:82:
+                        2f:b6:a5:53:c1:a4:f9:8d:33:fa:0d:32:83:16:68:
+                        55:b5:05:45:da:c5:a9:cf:78:e0:fd:58:3d:c4:4b:
+                        67:40:fc:b6:87:60:bd:0b:a8:42:50:1b:a8:12:df:
+                        9c:a8:bf:11:28:e1:93:bc:80:aa:65:0d:87:ef:ba:
+                        1c:07:95:9c:f7:13:45:c9:57:ca:0c:2e:a3:cf:34:
+                        83:7e:93:72:75:17:eb:f3:19:7b:21:c2:c3:74:c0:
+                        16:ff:e4:c2:88:1b:70:7e:fe:c0:73:a0:5f:49:27:
+                        eb:2b:92:08:dd:a8:cf:e9:fa:ec:8e:aa:8c:92:7e:
+                        89:5d:00:41:e8:8e:51:35:f6:e9:03:86:0d:af:61:
+                        f4:12:1a:f7:83:e3:16:5c:1b:16:1a:12:77:e1:82:
+                        dc:12:1d:73:11:16:eb:9e:d7:8c:f6:ca:e6:9e:61:
+                        8d:05:03:e0:04:ea:0d:83:74:7a:f7:d0:01:f1:9a:
+                        2c:16:04:ac:2f:37:e0:a3:80:90:6a:a3:dc:49:2d:
+                        14:b0:6d:52:95:62:df:0b:1a:10:1a:ea:6b:df:8c:
+                        2d:c7:e6:1f:3b:b7:31:1a:f3:29:5d:cd:a2:64:86:
+                        43:6b
                     Exponent: 65537 (0x10001)
             X509v3 extensions:
                 X509v3 Subject Key Identifier: 
-                    69:27:B9:70:8F:50:1C:1F:B2:14:96:C0:06:DA:4F:DA:A3:B3:2C:9C
+                    30:63:DA:F8:D7:9A:C8:A4:85:32:F2:22:E8:8C:4C:78:E3:D2:39:09
                 X509v3 Basic Constraints: critical
                     CA:TRUE
                 X509v3 Key Usage: 
@@ -112,21 +112,21 @@ Z cuberact proxy máme uložený root certifikát jako PEM file ([Save root cert
                 X509v3 Extended Key Usage: 
                     Any Extended Key Usage, TLS Web Server Authentication, TLS Web Client Authentication
         Signature Algorithm: sha256WithRSAEncryption
-             05:cf:82:83:9b:d1:1f:78:9f:ef:54:64:78:41:c6:24:23:eb:
-             30:77:27:9f:8a:c1:1e:29:ac:87:e0:64:be:c8:9e:c5:3e:e1:
-             91:d7:1e:37:9e:c4:fc:09:31:21:70:a5:04:f8:4d:3c:69:d6:
-             39:ea:3c:eb:43:98:0a:6c:9e:5d:9f:06:7e:93:79:08:20:c0:
-             76:ac:80:9c:4d:55:cd:4d:80:98:d1:54:1c:b6:3f:a1:1b:d0:
-             e1:67:80:c8:e0:54:45:a3:0e:03:fe:03:64:f8:5c:5d:03:d1:
-             b8:19:3f:b6:44:4a:9b:e4:16:da:b9:69:b6:85:51:d1:f4:bf:
-             80:f6:58:f4:ee:e8:67:30:12:a6:c8:b6:51:55:54:7e:68:63:
-             3d:b2:52:35:77:61:42:31:16:ae:f1:30:03:a6:53:49:36:c3:
-             c7:66:74:00:64:45:c6:e5:82:84:f3:eb:20:09:ef:c5:6e:5d:
-             03:83:51:fc:2f:c9:2b:d3:11:48:22:1f:57:0a:f3:20:c9:70:
-             d8:07:af:90:66:77:ae:dc:01:4c:c0:e6:f0:b0:23:b3:ed:b6:
-             55:ca:8e:a2:df:bd:8e:9a:1b:ab:01:56:c0:01:82:d6:16:c3:
-             fb:0c:77:df:57:db:99:be:c6:84:9b:ef:74:69:95:31:d3:42:
-             68:81:ac:13
+             83:77:70:31:ba:37:b8:66:72:a4:39:63:bd:eb:7b:22:83:0f:
+             54:46:31:ed:34:a6:ee:b2:ff:60:62:61:12:1e:74:f0:9e:c7:
+             6c:59:ea:ce:e0:ca:b9:b4:16:f8:7a:96:0f:da:79:68:69:8f:
+             0e:e4:44:d2:3d:75:a3:dc:f4:be:d3:cc:78:2d:1c:ed:6c:64:
+             c0:f6:94:93:6f:07:4b:be:47:19:d7:6f:02:01:fe:ad:93:4a:
+             da:ec:46:f2:07:9e:95:19:43:e2:0b:c9:94:e2:58:6f:02:9a:
+             2a:81:58:d5:1a:87:75:b8:ec:f2:18:b6:f0:af:c6:2e:c8:1b:
+             0f:dc:c3:ef:f4:cc:1b:2f:a2:50:f9:40:6b:86:0a:d5:2d:d5:
+             5d:7b:1b:ff:79:92:7f:0f:5d:cb:b8:3c:d8:6a:c9:ef:0a:2e:
+             e3:9b:e2:98:ef:d7:5c:f8:b1:65:9a:fd:f4:64:0e:07:90:bd:
+             ba:b5:f0:2c:f1:90:f8:b5:bf:b1:1d:d8:78:c2:3d:c8:ab:16:
+             c1:83:65:a8:b4:1a:8c:99:f7:a7:93:67:2a:36:ba:9a:ba:3d:
+             ee:e0:f6:7d:7a:7c:b3:94:66:8f:3c:6b:a1:b9:52:a6:f4:3a:
+             e4:7a:ce:86:e8:36:d4:bd:cd:27:2c:2e:67:56:1e:02:cc:09:
+             67:9d:b9:83
     ```
     Poznámka Pokud jsou v souboru sekce v jiném pořadí tak je přesuňte v textovém editoru
     
@@ -148,7 +148,7 @@ Spusťte android emulátor s příslušným AVD. Jako AVD volte vždy image/targ
 3. Zkopírování souboru na příslušné místo
 
     ```batch
-    adb push 7636ecd9.0 /system/etc/security/cacerts/
+    adb push 453ba6c0.0 /system/etc/security/cacerts/
     ```
 4. Restart AVD
 
